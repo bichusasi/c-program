@@ -6,6 +6,7 @@ int main()
  int i,j,len;
  printf("Enter the string:");
  scanf("%[^\n]",str);
+ len=strlen(str);
  for (len=0;str[len]!='\0';len++);
  {
   printf("length is %d\n",len);
